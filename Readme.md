@@ -1,19 +1,71 @@
-# IMDB Movie Review Sentiment Analysis
+# IMDB Movie Review Sentiment Analysis using Simple RNN
 
 ## Overview
-A deep learning project that predicts whether an IMDB movie review is positive or negative using a Simple RNN built with TensorFlow/Keras.
+
+This project performs **Sentiment Analysis** on IMDB movie reviews using a **Simple Recurrent Neural Network (Simple RNN)** built with TensorFlow and Keras. The model classifies movie reviews as **Positive** or **Negative** based on the input text.
+
+A user-friendly **Streamlit** web application enables users to enter a movie review and instantly receive its predicted sentiment along with the prediction probability.
+
+---
+
+## Live Demo
+
+**Deployed Application:** https://imdb-movie-review-sentiment-analysissimplernn-x6gqevbnqqmyaz8u.streamlit.app/
+
+---
 
 ## Features
-- Text preprocessing
-- Embedding layer
-- Simple RNN
-- Streamlit web application
-- Real-time sentiment prediction
 
-## Tech Stack
-- Python
-- TensorFlow
-- Keras
-- Streamlit
-- NumPy
-- Pandas
+* Predicts sentiment of IMDB movie reviews.
+* Interactive Streamlit web application.
+* Built using Simple RNN architecture.
+* Uses TensorFlow and Keras for model training.
+* Real-time sentiment prediction.
+* Displays prediction confidence.
+
+---
+
+## Technologies Used
+
+* Python
+* TensorFlow & Keras
+* Simple RNN
+* Streamlit
+* NumPy
+* Pandas
+* IMDB Dataset
+
+---
+
+## Dataset
+
+The project uses the **IMDB Movie Review Dataset**, containing thousands of labeled movie reviews.
+
+### Target Classes
+
+* **Positive Review**
+* **Negative Review**
+
+---
+
+## Model Architecture
+
+The neural network consists of:
+
+* Embedding Layer
+* Simple RNN Layer
+* Dense Output Layer with Sigmoid Activation
+
+### Loss Function
+
+* Binary Crossentropy
+
+### Optimizer
+
+* Adam
+
+### Evaluation Metric
+
+* Accuracy
+
+---
